@@ -213,7 +213,7 @@ const handleSendMessage = async () => {
 
 ## Prerequisites
 
-- Connected wallet (using wagmi/ethers)
+- Connected wallet (using wagmi)
 - Target address must be XMTP-enabled
 - Network access to XMTP network (production or dev)
 

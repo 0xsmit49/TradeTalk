@@ -128,7 +128,7 @@ export default function ListingsPage() {
   const [sortBy, setSortBy] = useState('featured');
   const [viewMode, setViewMode] = useState('grid');
 
-  // Filter and sort listings
+ 
   const filteredListings = mockListings
     .filter(listing => {
       const matchesSearch = listing.itemName.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -145,23 +145,40 @@ export default function ListingsPage() {
         case 'price-low':
           return parseFloat(a.price) - parseFloat(b.price);
         case 'newest':
-          return b.views - a.views; // Using views as proxy for recency
+          return b.views - a.views;
         default:
           return 0;
       }
     });
 
-  const handleListingClick = (listing) => {
-    // Create a URL-friendly slug from the item name
-    const slug = listing.itemName.toLowerCase()
-      .replace(/[^a-z0-9\s]/g, '')
-      .replace(/\s+/g, '-');
+    const handleListingClick = async (listing) => {
+      if (!xmtp) {
+        console.error("XMTP client not initialized");
+        return;
+      }
     
-   
-    window.location.href = `/listing`;
-
+      const recipientAddress = listing.seller.address;
     
-  };
+      // Check if recipient is reachable
+      const canMessage = await XmtpClient.canMessage([recipientAddress]);
+      if (!canMessage.get(recipientAddress)) {
+        alert("This user is not available for messaging on XMTP.");
+        return;
+      }
+    
+      // Create or resume conversation
+      const conversation = await xmtp.conversations.newConversation(recipientAddress);
+    
+      // Store the conversation
+      // Here we redirect with listingId
+      const slug = listing.itemName
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, "")
+        .replace(/\s+/g, "-");
+    
+      window.location.href = `/listing/${slug}?listingId=${listing.id}`;
+    };
+    
 
   const formatPrice = (price) => {
     return price;
@@ -352,7 +369,7 @@ export default function ListingsPage() {
             ))}
           </div>
 
-          {/* Empty State */}
+       
           {filteredListings.length === 0 && (
             <div className="text-center py-12">
               <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -363,7 +380,7 @@ export default function ListingsPage() {
             </div>
           )}
 
-          {/* Footer */}
+       
           <div className="mt-16 text-center">
             <p className="text-gray-400">
               All conversations are secured with blockchain technology and cryptographic signatures

@@ -437,22 +437,50 @@ https://youtu.be/-xPSIHbx690
 #  Demo Screens
 
 ---
+## 1. Landing Page
+
+### Hero Section
 
 ![Screenshot from 2025-06-14 10-57-04](https://github.com/user-attachments/assets/a76e1aa1-e70a-48b9-98c8-2675e413db9e)
+
+### Key Features
+
 ![Screenshot from 2025-06-14 10-57-20](https://github.com/user-attachments/assets/a31d3037-8d3e-4ca7-a294-30abd3b3b090)
 
+## 2. Browsing all the Listings
+
+### Explore the marketplace
 
 ![Screenshot from 2025-06-14 10-57-33](https://github.com/user-attachments/assets/62e473b0-f166-4629-8e3f-eeacacae6cba)
 
+### Secure DM created on XMTP
+
 ![Screenshot from 2025-06-14 10-58-08](https://github.com/user-attachments/assets/25c8ab09-358b-4cbc-8caa-46ccc7b16065)
+
+### Deal finalization using /finalize
 
 ![Screenshot from 2025-06-14 10-58-45](https://github.com/user-attachments/assets/66b2d8fc-84f4-4353-b054-e42ce9040432)
 
+## 3. Create a new listing
+
+### Asset Deatails
+
 ![Screenshot from 2025-06-14 10-59-33](https://github.com/user-attachments/assets/c7f2eafd-cd21-4fbf-846e-7ce0a18e289f)
+
+### Set Price
+
 ![Screenshot from 2025-06-14 10-59-52](https://github.com/user-attachments/assets/a9997446-b0a3-48b6-9017-913d2bad89ac)
 
+### Upload Media
+
 ![Screenshot from 2025-06-14 11-00-08](https://github.com/user-attachments/assets/8b89b876-fe52-46ad-9a4f-f984f36e1ec1)
+
+### Publish Listing
+
 ![Screenshot from 2025-06-14 11-00-17](https://github.com/user-attachments/assets/30fe56b3-0638-41f3-bf46-6a7688c00bc8)
+
+### Listing is Published
+
 ![Screenshot from 2025-06-14 11-00-33](https://github.com/user-attachments/assets/8cf188e0-aedf-4ede-b55f-898f29e96f89)
 
 ---

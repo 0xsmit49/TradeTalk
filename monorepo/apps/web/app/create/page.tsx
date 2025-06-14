@@ -33,10 +33,10 @@ function ListingCreationSection() {
 
   const steps = [
     
-    { id: 1, title: 'Asset Details', icon: '📝' },
-    { id: 2, title: 'Set Price', icon: '💰' },
-    { id: 3, title: 'Upload Media', icon: '🖼️' },
-    { id: 4, title: 'Publish Listing', icon: '🚀' }
+    { id: 1, title: 'Asset Details', icon: '' },
+    { id: 2, title: 'Set Price', icon: '' },
+    { id: 3, title: 'Upload Media', icon: '' },
+    { id: 4, title: 'Publish Listing', icon: '' }
   ];
 
   const categories = [
@@ -129,7 +129,7 @@ function ListingCreationSection() {
         {/* Step 2: Asset Details */}
         {currentStep === 1 && (
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-white mb-6">📝 Asset Details</h2>
+            <h2 className="text-3xl font-bold text-white mb-6"> Asset Details</h2>
             <div className="grid grid-cols-1 gap-6">
               <div>
                 <label className="block text-gray-300 font-medium mb-2">Item Name</label>
@@ -205,7 +205,7 @@ function ListingCreationSection() {
         {/* Step 3: Set Price */}
         {currentStep === 2 && (
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-white mb-6">💰 Set Price</h2>
+            <h2 className="text-3xl font-bold text-white mb-6"> Set Price</h2>
             <div className="bg-gray-800/50 rounded-2xl p-6">
               <label className="block text-gray-300 font-medium mb-4">Price</label>
               <div className="flex items-center space-x-4">
@@ -234,7 +234,7 @@ function ListingCreationSection() {
         {/* Step 4: Upload Media */}
         {currentStep === 3 && (
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-white mb-6">🖼️ Upload Media</h2>
+            <h2 className="text-3xl font-bold text-white mb-6"> Upload Media</h2>
             <div className="space-y-6">
               <div className="border-2 border-dashed border-gray-700 rounded-2xl p-8 text-center hover:border-purple-500 transition-colors">
                 <input
@@ -247,7 +247,7 @@ function ListingCreationSection() {
                 <label htmlFor="file-upload" className="cursor-pointer block">
                   <div className="space-y-4">
                     <div className="w-16 h-16 mx-auto bg-gray-800 rounded-full flex items-center justify-center">
-                      <span className="text-2xl">📁</span>
+                      <span className="text-2xl"></span>
                     </div>
                     <div>
                       <p className="text-white font-medium">Click to upload thumbnail</p>
@@ -278,7 +278,7 @@ function ListingCreationSection() {
         {/* Step 5: Review & Publish */}
         {currentStep === 4 && !isListed && (
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-white mb-6">🚀 Ready to Publish</h2>
+            <h2 className="text-3xl font-bold text-white mb-6"> Ready to Publish</h2>
             <div className="bg-gray-800/50 rounded-2xl p-8 space-y-4">
               <div className="text-left space-y-2">
                 <p><span className="text-gray-400">Item:</span> <span className="text-white">{listingData.itemName}</span></p>
@@ -293,10 +293,10 @@ function ListingCreationSection() {
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-6">
               <h3 className="text-xl font-bold text-white mb-2">What happens next?</h3>
               <div className="text-left space-y-2 text-purple-100">
-                <p>🔐 Listing signed with EIP-712 for authenticity</p>
-                <p>💬 XMTP chat enabled for buyer communication</p>
-                <p>📋 Instant marketplace visibility</p>
-                <p>🔍 Searchable by category and price</p>
+                <p> Listing signed with EIP-712 for authenticity</p>
+                <p> XMTP chat enabled for buyer communication</p>
+                <p>Instant marketplace visibility</p>
+                <p> Searchable by category and price</p>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ function ListingCreationSection() {
         {currentStep === 4 && isListed && listingDetails && (
           <div className="space-y-6">
             <div className="text-center mb-8">
-              <span className="text-6xl mb-4 block">🎉</span>
+              <span className="text-6xl mb-4 block"></span>
               <h2 className="text-3xl font-bold text-white mb-2">Listing Successfully Published!</h2>
               <p className="text-gray-300">Your item is now live on TradeTalk marketplace</p>
             </div>
@@ -314,7 +314,7 @@ function ListingCreationSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
                 <h3 className="text-lg font-bold text-white mb-4 flex items-center">
-                  <span className="text-blue-400 mr-2">📝</span>
+                  <span className="text-blue-400 mr-2"></span>
                   Listing Information
                 </h3>
                 <div className="space-y-3 text-sm">
@@ -335,7 +335,7 @@ function ListingCreationSection() {
 
               <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
                 <h3 className="text-lg font-bold text-white mb-4 flex items-center">
-                  <span className="text-purple-400 mr-2">🔐</span>
+                  <span className="text-purple-400 mr-2"></span>
                   Blockchain Details
                 </h3>
                 <div className="space-y-3 text-sm">
@@ -356,7 +356,7 @@ function ListingCreationSection() {
 
               <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
                 <h3 className="text-lg font-bold text-white mb-4 flex items-center">
-                  <span className="text-cyan-400 mr-2">💬</span>
+                  <span className="text-cyan-400 mr-2"></span>
                   XMTP Communication
                 </h3>
                 <div className="space-y-3 text-sm">
@@ -377,7 +377,7 @@ function ListingCreationSection() {
 
               <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
                 <h3 className="text-lg font-bold text-white mb-4 flex items-center">
-                  <span className="text-green-400 mr-2">💰</span>
+                  <span className="text-green-400 mr-2"></span>
                   Listing Details
                 </h3>
                 <div className="space-y-3 text-sm">
@@ -409,7 +409,7 @@ function ListingCreationSection() {
 
             <div className="bg-yellow-900/30 border border-yellow-700 rounded-2xl p-6">
               <h3 className="text-lg font-bold text-yellow-300 mb-2 flex items-center">
-                <span className="mr-2">📈</span>
+                <span className="mr-2"></span>
                 Next Steps
               </h3>
               <ul className="text-yellow-100 space-y-1 text-sm">
@@ -448,14 +448,14 @@ function ListingCreationSection() {
             onClick={publishListing}
             className="px-8 py-3 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all transform hover:scale-105 font-bold"
           >
-            🚀 Publish Listing
+             Publish Listing
           </button>
         ) : (
           <button
             disabled
             className="px-8 py-3 bg-gradient-to-r from-gray-600 to-gray-700 text-white rounded-xl font-bold cursor-not-allowed opacity-75"
           >
-            📋 Listing Published
+             Listing Published
           </button>
         )}
       </div>

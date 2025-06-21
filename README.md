@@ -1,6 +1,6 @@
 # TradeTalk: Trade Smarter. Talk Onchain.
 
-
+For more detailed descritption about the XMTP-usage visit our [Docs](https://github.com/0xsmit49/TradeTalk/tree/main/Docs/XMTP_usage)
 
 #  Table of Contents
 
@@ -25,14 +25,17 @@ TradeTalk is a secure onchain messaging marketplace built on XMTP and believes i
 Buyers and sellers connect through encrypted chats, while an onchain agent facilitates negotiation, generates cryptographic proofs, and ensures agreements are finalized with verifiable signatures.
 Every deal comes with immutable proof onchain, eliminating disputes and establishing trust by default.
 
-![Screenshot from 2025-06-13 15-46-08](https://github.com/user-attachments/assets/e81e6cdd-8b4a-462f-afe6-1461741199cb)
+![Screenshot from 2025-06-13 15-46-08](https://github.com/user-attachments/assets/d217b589-fd62-4895-b7b4-6cba65e40511)
+
+
 
 
 ---
 
 # Architecture Diagram
 
-![Screenshot from 2025-06-13 13-52-05](https://github.com/user-attachments/assets/3d5c4e28-e9ed-4915-85dd-a1344bc576f0)
+![Screenshot from 2025-06-13 13-52-05](https://github.com/user-attachments/assets/ecc26218-97f6-4a9d-b69c-c78bcbd8efd7)
+
 
 
 

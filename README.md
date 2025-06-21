@@ -444,47 +444,57 @@ https://youtu.be/-xPSIHbx690
 
 ### Hero Section
 
-![Screenshot from 2025-06-14 10-57-04](https://github.com/user-attachments/assets/a76e1aa1-e70a-48b9-98c8-2675e413db9e)
+![Screenshot from 2025-06-14 10-57-04](https://github.com/user-attachments/assets/1acaf748-38b7-4cff-8ade-2707109648dd)
+
 
 ### Key Features
 
-![Screenshot from 2025-06-14 10-57-20](https://github.com/user-attachments/assets/a31d3037-8d3e-4ca7-a294-30abd3b3b090)
+![Screenshot from 2025-06-14 10-57-20](https://github.com/user-attachments/assets/c59541fc-1750-4f1a-865e-a5090d519cdd)
+
 
 ## 2. Browsing all the Listings
 
 ### Explore the marketplace
 
-![Screenshot from 2025-06-14 10-57-33](https://github.com/user-attachments/assets/62e473b0-f166-4629-8e3f-eeacacae6cba)
+![Screenshot from 2025-06-14 10-57-33](https://github.com/user-attachments/assets/64ec2107-15b1-4a8a-8a2f-ceb98d1d53b0)
+
 
 ### Secure DM created on XMTP
 
-![Screenshot from 2025-06-14 10-58-08](https://github.com/user-attachments/assets/25c8ab09-358b-4cbc-8caa-46ccc7b16065)
+![Screenshot from 2025-06-14 10-58-08](https://github.com/user-attachments/assets/9de814d3-3c88-4bb7-bca2-532a24a249fc)
+
 
 ### Deal finalization using /finalize
 
-![Screenshot from 2025-06-14 10-58-45](https://github.com/user-attachments/assets/66b2d8fc-84f4-4353-b054-e42ce9040432)
+![Screenshot from 2025-06-14 10-58-45](https://github.com/user-attachments/assets/64b96c7a-76fb-4e04-96c1-1e0200c3d69b)
+
 
 ## 3. Create a new listing
 
 ### Asset Deatails
 
-![Screenshot from 2025-06-14 10-59-33](https://github.com/user-attachments/assets/c7f2eafd-cd21-4fbf-846e-7ce0a18e289f)
+![Screenshot from 2025-06-14 10-59-33](https://github.com/user-attachments/assets/905b8431-e6dd-4ae5-adfd-9f6a4ef26bea)
 
 ### Set Price
 
-![Screenshot from 2025-06-14 10-59-52](https://github.com/user-attachments/assets/a9997446-b0a3-48b6-9017-913d2bad89ac)
+![Screenshot from 2025-06-14 10-59-52](https://github.com/user-attachments/assets/fdc5974c-9cbb-4dd8-be11-ce858c650216)
+
 
 ### Upload Media
 
-![Screenshot from 2025-06-14 11-00-08](https://github.com/user-attachments/assets/8b89b876-fe52-46ad-9a4f-f984f36e1ec1)
+![Screenshot from 2025-06-14 11-00-08](https://github.com/user-attachments/assets/5baa945a-cd96-4d29-a605-b8ac321871d4)
+
 
 ### Publish Listing
 
-![Screenshot from 2025-06-14 11-00-17](https://github.com/user-attachments/assets/30fe56b3-0638-41f3-bf46-6a7688c00bc8)
+![Screenshot from 2025-06-14 11-00-17](https://github.com/user-attachments/assets/fe808787-bded-4389-97d5-525007d0251a)
+
+
 
 ### Listing is Published
 
-![Screenshot from 2025-06-14 11-00-33](https://github.com/user-attachments/assets/8cf188e0-aedf-4ede-b55f-898f29e96f89)
+![Screenshot from 2025-06-14 11-00-33](https://github.com/user-attachments/assets/abb678c9-3eb6-41d5-9594-eed3dc4c947c)
+
 
 ---
 
